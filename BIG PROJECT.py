@@ -2,7 +2,7 @@ import pygame
 from pygame.locals import *                                             # pygame import
 
 pygame.init()
-taille_fenetre = (775,750)                                              # gestion fenetre
+taille_fenetre = (750,775)                                                # gestion fenetre
 fenetre_rect = pygame.Rect((0,0), taille_fenetre)
 screen_surface = pygame.display.set_mode(taille_fenetre)
 
