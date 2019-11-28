@@ -30,6 +30,7 @@ bouton_quitter = Button(menu, text="Valider", command=menu.quit)
 bouton_quitter.pack()
 
 menu.mainloop()
+menu.destroy()
 
 
 
