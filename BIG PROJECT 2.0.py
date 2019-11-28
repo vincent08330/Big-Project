@@ -110,8 +110,8 @@ if (var_jeu2.get() == 1):                                                    # s
 
         timer.tick(60)                                                                      #clock
         keys_pressed = pygame.key.get_pressed()
-        vx = (keys_pressed[K_RIGHT] - keys_pressed[K_LEFT]) * 3                          #keys moves
-        vy = (keys_pressed[K_DOWN] - keys_pressed[K_UP]) * 3
+        vx = (keys_pressed[K_RIGHT] - keys_pressed[K_LEFT]) * 6                        #keys moves
+        vy = (keys_pressed[K_DOWN] - keys_pressed[K_UP]) * 6
         x += vx
         y += vy                                                                             #vitesse
         y  = min(725,  y)
@@ -119,8 +119,8 @@ if (var_jeu2.get() == 1):                                                    # s
         x  = max(  x,   0)                                                                  #maxs et mins
         x  = min(  x, 725)
 
-        vx2 = (keys_pressed[K_d] - keys_pressed[K_a]) * 3                                    #keys moves
-        vy2 = (keys_pressed[K_s] - keys_pressed[K_w]) * 3
+        vx2 = (keys_pressed[K_d] - keys_pressed[K_a]) * 6                                    #keys moves
+        vy2 = (keys_pressed[K_s] - keys_pressed[K_w]) * 6
         x2 += vx2
         y2 += vy2                                                                             #vitesse
         y2  = min(725,  y2)
