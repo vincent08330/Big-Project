@@ -1,4 +1,4 @@
-﻿import pygame
+﻿import pygame       #initialiser pygame
 from pygame.locals import *
 
 pygame.init()
