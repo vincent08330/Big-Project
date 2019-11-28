@@ -8,7 +8,7 @@ screen_surface = pygame.display.set_mode(taille_fenetre)
 
 bleu_nuit = (  5,   5, 30)
 vert      = (  0, 255,  0)
-rouge     = (255,   0,  0)
+rouge     = (255,   0)
 
 timer = pygame.time.Clock()
 
