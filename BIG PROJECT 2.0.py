@@ -26,6 +26,9 @@ var_jeu2 = IntVar()
 jeu2 = Checkbutton(menu, text="Tower defense", variable = var_jeu2)     # case 2 à cocher
 jeu2.pack()
 
+bouton_quitter = Button(menu, text="Valider", command=menu.quit)
+bouton_quitter.pack()
+
 menu.mainloop()
 
 
