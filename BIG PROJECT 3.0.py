@@ -40,7 +40,6 @@ if (var_jeu2.get() == 1):                                                    # s
     import pygame
     from pygame.locals import *                                             # pygame import
 
-    print("nop")
     pygame.init()
     taille_fenetre = (750,775)                                             # gestion fenetre
     fenetre_rect = pygame.Rect((0, 0), taille_fenetre)
