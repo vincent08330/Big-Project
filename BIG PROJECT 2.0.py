@@ -133,7 +133,6 @@ if (var_jeu2.get() == 1):                                                    # s
         screen_surface.blit(p1, (x, y))                                                  # affichage p1
         screen_surface.blit(p2, (x2, y2))                                                # affichage p2
         pygame.display.flip()
-        print("yess")
         
         if keys_pressed[K_e] > 0:
             print("okkk")
