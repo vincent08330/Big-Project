@@ -40,8 +40,10 @@ if (var_jeu2.get() == 1):                                                    # s
     import pygame
     from pygame.locals import *                                             # pygame import
 
+    version = "3.0"
     pygame.init()
-    taille_fenetre = (750,775)                                             # taille fenetre (x/y)
+    taille_fenetre = (750,775)                                              # taille fenetre (x/y)
+    pygame.display.set_caption("BIG PROJECT"+ version)
     fenetre_rect = pygame.Rect((0, 0), taille_fenetre)                     #jsplus
     screen_surface = pygame.display.set_mode(taille_fenetre)               #surface = taille fenetre
 
