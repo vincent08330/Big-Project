@@ -35,7 +35,7 @@ menu.destroy()                                                          #destruc
 
 
 
-if (var_jeu2.get() == 1):                                                    # si case 2 cochée
+if (var_jeu2.get() == 1):                                                   # si case 2 cochée
 
     import pygame
     from pygame.locals import *                                             # pygame import
