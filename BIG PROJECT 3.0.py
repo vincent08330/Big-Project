@@ -4,7 +4,7 @@ bleu_nuit = (125, 125, 125)
 vert      = ( 30, 200,  82)                                             # set up var couleurs
 rouge     = (255,   0,   0)
 bleu      = ( 48, 159, 236)
-jaune     = (125,   0,  50)
+violet     = (125,   0,  50)
 
 
 menu = Tk()                                                             # taille fenetre
@@ -60,14 +60,14 @@ if (var_jeu2.get() == 1):                                                    # s
     vx2, vy2 = 0, 0
 
     pistol1 = pygame.Surface((5,15))
-    pistol1.fill(jaune)
+    pistol1.fill(violet)
 
     direction_x1 = x+10
     direction_y1 = y-10
 
 
     pistol2 = pygame.Surface((5,15))
-    pistol2.fill(jaune)
+    pistol2.fill(violet)
 
     direction_x2 = x2+10
     direction_y2 = y2-10
@@ -141,26 +141,26 @@ if (var_jeu2.get() == 1):                                                    # s
 
         if vx > 1:
             pistol1 = pygame.Surface((15,5))
-            pistol1.fill(jaune)
+            pistol1.fill(violet)
             direction_x1 = x+20
             direction_y1 = y+10
 
         elif vx < 0:
             pistol1 = pygame.Surface((15,5))
-            pistol1.fill(jaune)
+            pistol1.fill(violet)
             direction_x1 = x-10
             direction_y1 = y+10
 
 
         if vy > 1:
             pistol1 = pygame.Surface((5,15))
-            pistol1.fill(jaune)
+            pistol1.fill(violet)
             direction_x1 = x+10
             direction_y1 = y+20
 
         elif vy < 0:
             pistol1 = pygame.Surface((5,15))
-            pistol1.fill(jaune)
+            pistol1.fill(violet)
             direction_x1 = x+10
             direction_y1 = y-10
 
@@ -184,26 +184,26 @@ if (var_jeu2.get() == 1):                                                    # s
 
         if vx2 > 1:
             pistol2 = pygame.Surface((15,5))
-            pistol2.fill(jaune)
+            pistol2.fill(violet)
             direction_x2 = x2+20
             direction_y2 = y2+10
 
         elif vx2 < 0:
             pistol2 = pygame.Surface((15,5))
-            pistol2.fill(jaune)
+            pistol2.fill(violet)
             direction_x2 = x2-10
             direction_y2 = y2+10
 
 
         if vy2 > 1:
             pistol2 = pygame.Surface((5,15))
-            pistol2.fill(jaune)
+            pistol2.fill(violet)
             direction_x2 = x2+10
             direction_y2 = y2+20
 
         elif vy2 < 0:
             pistol2 = pygame.Surface((5,15))
-            pistol2.fill(jaune)
+            pistol2.fill(violet)
             direction_x2 = x2+10
             direction_y2 = y2-10
 
